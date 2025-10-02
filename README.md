@@ -53,12 +53,14 @@
    git config --global user.email "your_email@example.com"
    ```
 4. **Check Configuration**
-  Lists all of your current Git configurations.
+
+  **Lists all of your current Git configurations.**
    ```bash
    git config --list or git config --global user.email
   ```
-  Shows the origin folder  
+
+  **Shows the origin folder**
+
   ```bash
   git config --list --show-origin
   ```
----
