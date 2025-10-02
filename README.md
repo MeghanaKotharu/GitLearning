@@ -52,7 +52,13 @@
    git config --global user.name "Your Name"
    git config --global user.email "your_email@example.com"
    ```
-
+4. **Check Configuration**
+  Lists all of your current Git configurations.
+   ```bash
+   git config --list or git config --global user.email
+  ```
+  Shows the origin folder  
+  ```bash
+  git config --list --show-origin
+  ```
 ---
-
-👉 Would you like me to also create a **step-by-step cheat sheet** with the most commonly used Git + GitHub commands (clone, push, pull, etc.) so you have everything in one place?
